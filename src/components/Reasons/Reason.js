@@ -13,7 +13,7 @@ const Reason = () => {
   return (
     <div className='reasons' id='reasons'>
         <div className='left-r'>
-            <img src={image1} alt="error loading"/>
+            <img src={image1} alt="error loading" fetchpriority="high" />
             <img src={image2} alt="error loading"/>
             <img src={image3} alt="error loading"/>
             <img src={image4} alt="error loading"/>
